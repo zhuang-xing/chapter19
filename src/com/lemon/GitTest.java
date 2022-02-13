@@ -12,5 +12,7 @@ public class GitTest {
 		System.out.println("master test");
 		System.out.println("hot-fix test");
 		System.out.println("pull test");
+		// pull 和 push 反了
+		System.out.println("push test");
 	}
 }
