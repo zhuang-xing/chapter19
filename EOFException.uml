@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.io.EOFException</OriginalElement>
+  <nodes>
+    <node x="166.0" y="92.0">java.lang.Throwable</node>
+    <node x="229.5" y="276.0">java.lang.ClassNotFoundException</node>
+    <node x="6.5" y="276.0">java.io.IOException</node>
+    <node x="86.75" y="0.0">java.lang.Object</node>
+    <node x="0.0" y="368.0">java.io.EOFException</node>
+    <node x="166.0" y="184.0">java.lang.Exception</node>
+    <node x="245.75" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.io.EOFException" target="java.io.IOException">
+      <point x="0.0" y="-21.0" />
+      <point x="0.0" y="21.0" />
+    </edge>
+    <edge source="java.lang.Exception" target="java.lang.Throwable">
+      <point x="0.0" y="-21.0" />
+      <point x="0.0" y="21.0" />
+    </edge>
+    <edge source="java.lang.Throwable" target="java.io.Serializable">
+      <point x="44.5" y="-21.0" />
+      <point x="299.5" y="67.0" />
+      <point x="353.75" y="67.0" />
+      <point x="0.0" y="21.0" />
+    </edge>
+    <edge source="java.io.IOException" target="java.lang.Exception">
+      <point x="0.0" y="-21.0" />
+      <point x="108.0" y="251.0" />
+      <point x="210.5" y="251.0" />
+      <point x="-44.5" y="21.0" />
+    </edge>
+    <edge source="java.lang.Throwable" target="java.lang.Object">
+      <point x="-44.5" y="-21.0" />
+      <point x="210.5" y="67.0" />
+      <point x="156.25" y="67.0" />
+      <point x="0.0" y="21.0" />
+    </edge>
+    <edge source="java.lang.ClassNotFoundException" target="java.lang.Exception">
+      <point x="0.0" y="-21.0" />
+      <point x="402.0" y="251.0" />
+      <point x="299.5" y="251.0" />
+      <point x="44.5" y="21.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="187.5" y="205.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.io.FileReader</OriginalElement>
+  <nodes>
+    <node x="703.0" y="364.0">java.io.PipedReader</node>
+    <node x="464.00000000000006" y="406.0">java.io.StringReader</node>
+    <node x="1305.0" y="392.0">java.io.CharArrayReader</node>
+    <node x="933.25" y="107.0">java.io.Closeable</node>
+    <node x="589.25" y="107.0">java.lang.Readable</node>
+    <node x="774.25" y="92.0">java.lang.Object</node>
+    <node x="1011.0" y="392.0">java.io.BufferedReader</node>
+    <node x="757.5" y="214.0">java.io.Reader</node>
+    <node x="93.0" y="570.0">java.io.FileReader</node>
+    <node x="0.0" y="364.0">java.io.InputStreamReader</node>
+    <node x="907.75" y="0.0">java.lang.AutoCloseable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.io.PipedReader" target="java.io.Reader">
+      <point x="0.0" y="-78.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="java.io.Reader" target="java.io.Closeable">
+      <point x="59.66666666666663" y="-50.0" />
+      <point x="906.6666666666667" y="189.0" />
+      <point x="1022.25" y="189.0" />
+      <point x="0.0" y="21.0" />
+    </edge>
+    <edge source="java.io.Reader" target="java.lang.Readable">
+      <point x="-59.66666666666663" y="-50.0" />
+      <point x="787.3333333333335" y="189.0" />
+      <point x="671.75" y="189.0" />
+      <point x="0.0" y="21.0" />
+    </edge>
+    <edge source="java.io.CharArrayReader" target="java.io.Reader">
+      <point x="0.0" y="-50.0" />
+      <point x="1456.5" y="334.0" />
+      <point x="918.6000000000001" y="334.0" />
+      <point x="71.60000000000002" y="50.0" />
+    </edge>
+    <edge source="java.io.FileReader" target="java.io.InputStreamReader">
+      <point x="0.0" y="-64.0" />
+      <point x="0.0" y="78.0" />
+    </edge>
+    <edge source="java.io.InputStreamReader" target="java.io.Reader">
+      <point x="0.0" y="-78.0" />
+      <point x="222.0" y="334.0" />
+      <point x="775.4000000000001" y="334.0" />
+      <point x="-71.60000000000002" y="50.0" />
+    </edge>
+    <edge source="java.io.BufferedReader" target="java.io.Reader">
+      <point x="0.0" y="-50.0" />
+      <point x="1148.0" y="344.0" />
+      <point x="882.8" y="344.0" />
+      <point x="35.799999999999955" y="50.0" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-21.0" />
+      <point x="0.0" y="21.0" />
+    </edge>
+    <edge source="java.io.StringReader" target="java.io.Reader">
+      <point x="0.0" y="-36.0" />
+      <point x="573.5" y="344.0" />
+      <point x="811.2" y="344.0" />
+      <point x="-35.799999999999955" y="50.0" />
+    </edge>
+    <edge source="java.io.Reader" target="java.lang.Object">
+      <point x="0.0" y="-50.0" />
+      <point x="847.0" y="189.0" />
+      <point x="843.75" y="189.0" />
+      <point x="0.0" y="36.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7517347725520431" x="859.9646153846154" y="205.0" />
+  <SelectedNodes>
+    <node>java.io.FileReader</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
